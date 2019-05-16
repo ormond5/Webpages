@@ -1,0 +1,71 @@
+body{
+  background-color: black;
+}
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: blue;
+  text-align: center;
+  font-family: sans-serif, monospace;
+}
+.score-board {
+  margin: 20px auto;
+  border: 3px solid white;
+  width: 200px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: sans-serif, monospace;
+  color: white;
+  font-size: 46px;
+  position: relative;
+}
+.badge{
+  background: red;
+  color: white;
+  font-size: 14px;
+  padding: 2px 10px;
+  font-family: sans-serif, monospace;
+}
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+
+}
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -40px;
+}
+.result {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+.choices{
+  margin-left: 50px 0;
+  text-align: center;
+}
+.choice{
+  padding: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.choice > img {
+  width: 200px;
+}
+.choice :hover{
+  /*Find How to turn off hover */
+  cursor: pointer;
+  background-color: white;
+}
+#action_message{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif, serif;
+}
